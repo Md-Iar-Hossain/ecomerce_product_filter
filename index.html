@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecomerce Product Filter with vanilla js</title>
+  <link rel="stylesheet" href="ecomerce_product_filter.css">
+</head>
+<body>
+  <nav>
+    <ul class="filter_menu">
+      <li class="menu_item active" data-filter="all">All</li>
+      <li class="menu_item" data-filter="mobile">Mobile</li>
+      <li class="menu_item" data-filter="watch">Watch</li>
+      <li class="menu_item" data-filter="camera">Camera</li>
+      <li class="menu_item" data-filter="headphone">Headphone</li>
+      <li class="menu_item" data-filter="shoes">Shoes</li>
+    </ul>
+  </nav>
+  <main class="gallery">
+    <figure class="item" data-filter="mobile">
+      <img src="img/mobile1.jpg" alt="mobile1">
+    </figure>
+    <figure class="item" data-filter="camera">
+      <img src="img/camera1.jpg" alt="camera1">
+    </figure>
+    <figure class="item" data-filter="headphone">
+      <img src="img/headphone1.jpg" alt="headphone1">
+    </figure>
+    <figure class="item" data-filter="shoes">
+      <img src="img/shoe1.jpg" alt="shoe1">
+    </figure>
+    <figure class="item" data-filter="watch">
+      <img src="img/watch1.jpg" alt="watch1">
+    </figure>
+    <figure class="item" data-filter="camera">
+      <img src="img/camera2.jpg" alt="camera1">
+    </figure>
+    <figure class="item" data-filter="mobile">
+      <img src="img/mobile2.jpg" alt="mobile2">
+    </figure>
+    <figure class="item" data-filter="watch">
+      <img src="img/watch2.jpg" alt="watch2">
+    </figure>
+    <figure class="item" data-filter="headphone">
+      <img src="img/headphone2.jpg" alt="headphone2">
+    </figure>
+
+    <figure class="item" data-filter="mobile">
+      <img src="img/mobile3.jpg" alt="mobile3">
+    </figure>
+    <figure class="item" data-filter="camera">
+      <img src="img/camera3.jpg" alt="camera3">
+    </figure>
+    <figure class="item" data-filter="headphone">
+      <img src="img/headphone3.jpg" alt="headphone3">
+    </figure>
+    <figure class="item" data-filter="shoes">
+      <img src="img/shoe2.jpg" alt="shoe2">
+    </figure>
+    <figure class="item" data-filter="watch">
+      <img src="img/watch3.jpg" alt="watch3">
+    </figure>
+    <figure class="item" data-filter="shoes">
+      <img src="img/shoe3.jpg" alt="shoe3">
+    </figure>
+    <figure class="item" data-filter="mobile">
+      <img src="img/mobile4.jpg" alt="mobile2">
+    </figure>
+    <figure class="item" data-filter="watch">
+      <img src="img/watch4.jpg" alt="watch4">
+    </figure>
+    <figure class="item" data-filter="headphone">
+      <img src="img/headphone4.jpg" alt="headphone4">
+    </figure>
+    <figure class="item" data-filter="mobile">
+      <img src="img/mobile5.jpg" alt="mobile2">
+    </figure>
+    <figure class="item" data-filter="shoes">
+      <img src="img/shoe4.jpg" alt="shoe4">
+    </figure>
+  </main>
+  <div class="image_preview">
+    <div class="image_preview_header">
+      <h2>Image Category: <span class="category">Mobile</span> </h2>
+      <span class="close_btn">&times;</span>
+    </div>
+    <figure class="image_box">
+      <img src="" alt="">
+    </figure>
+  </div>
+  <div class="shadow"></div>
+  <script src="ecomerce_product_filter.js"></script>
+</body>
+</html>
