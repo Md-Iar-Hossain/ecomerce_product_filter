@@ -13,4 +13,4 @@ compatible with all major web browsers
 **Features:**   
   => *Filter product by category*  
   => *Responsive for all devices*  
-Here is the live <a href="md-iar-hossain.github.io/ecomerce_product_filter/"> preview link.</a>
+Here is the live <a href="https://md-iar-hossain.github.io/ecomerce_product_filter/"> preview link.</a>
